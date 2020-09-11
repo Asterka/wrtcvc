@@ -1,8 +1,8 @@
 {
   "name": "wrtcvc",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
-  "main": "src/main.tsx",
+  "main": "src/components/main.tsx",
   "scripts": {
     "start": "ijl-cli --server --with-open-browser",
     "clean": "rimraf ./dist",
@@ -36,6 +36,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "uikit-asterka": "^1.0.1"
   }
 }

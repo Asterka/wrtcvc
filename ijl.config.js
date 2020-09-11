@@ -8,9 +8,9 @@ module.exports = {
         }
 },
     "navigations":{
-            "wrtcvc": "/wrtcvc"
+            "wrtcvc": "/wrtcvc",
     },
     "config":{
-        "wrtcvc.api.base":"/api"
+        "wrtcvc.api.base":"/api",
     }
 }

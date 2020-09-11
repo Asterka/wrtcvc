@@ -1,4 +1,6 @@
 const router = require("express").Router();
+const adminRouter = require('./admin');
+
 
 router.get("/getMainData", (req, res)=>{
     let answer = {
@@ -8,5 +10,7 @@ router.get("/getMainData", (req, res)=>{
         "mainData": require("./answer")
     }
 })
+
+router.use(adminRouter);
 
 module.exports = router;
