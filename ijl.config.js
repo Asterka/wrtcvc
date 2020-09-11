@@ -4,11 +4,11 @@ module.exports = {
     "apiPath":"stubs/api",
     "webpackConfig":{
         "output":{
-            "publicPath":`/static/wrtcvc/main/`
+            "publicPath":`/static/wrtcvc/${pkg.version}/`
         }
 },
     "navigations":{
-            "repos": "/wrtcvc"
+            "wrtcvc": "/wrtcvc"
     },
     "config":{
         "wrtcvc.api.base":"/api"
