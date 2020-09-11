@@ -1,12 +1,16 @@
 const pkg = require("./package")
 
 module.exports = {
+    "apiPath":"stubs/api",
     "webpackConfig":{
         "output":{
-            "publicPath":`/static/uds-epjs/${pkg.version}/`
+            "publicPath":`/static/wrtcvc/main/`
         }
 },
     "navigations":{
-            "repos": "/epjs"
+            "repos": "/wrtcvc"
+    },
+    "config":{
+        "wrtcvc.api.base":"/api"
     }
 }
