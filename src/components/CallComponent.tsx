@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const StyledImg = styled.div`
 width: 200px;
 height: 200px;
-background: url(/api/getImage?id=1);
+background: url(http://89.223.91.151:3002/static/wrtcvc/master/static/me.jpg);
 `
 
 interface ImageProps extends React.HtmlHTMLAttributes<HTMLDivElement>{
@@ -23,7 +23,6 @@ export default class CallComponent extends Component {
         return (
         <>
             <h1>Call</h1>
-            <Image background="https://img.favpng.com/11/9/5/iphone-telephone-call-smartphone-clip-art-png-favpng-vrkRSBrbW2c5PHBuwLY2FytkN.jpg" width="200px" height="100px"/>
             <Button title="Test">Call</Button>
         </>        
         )
