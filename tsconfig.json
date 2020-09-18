@@ -13,11 +13,11 @@
     "outDir": "./dist/",
     "allowJs": true,
     "sourceMap": true,
-    "esModuleInterop": true,
     "typeRoots": [
-      "node_modules/@types", "src/typings"
+      "node_modules/@types", "src/typings",
+      "@types"
     ],
-    "types": [],
+    "types": ["@types/node",  "@types/react"],
      // "allowJs": true,                       /* Allow javascript files to be compiled. */
     // "checkJs": true,                       /* Report errors in .js files. */
      "jsx": "react",                     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
