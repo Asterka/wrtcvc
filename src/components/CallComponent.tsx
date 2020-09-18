@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const StyledImg = styled.div`
 width: 200px;
 height: 200px;
-background: url(http://89.223.91.151:3002/static/wrtcvc/master/static/me.jpg);
+background: url(http://89.223.91.151:3002/static/wrtcvc/1.1.2/static/me.jpg);
 `
 
 interface ImageProps extends React.HtmlHTMLAttributes<HTMLDivElement>{
